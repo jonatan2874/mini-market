@@ -1,0 +1,16 @@
+@import '../general.scss';
+
+.shopping-cart{
+    padding-top: 1.8rem;
+    font-size: 1.8rem;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+
+    span{
+        padding: 0.5rem;
+    }
+}

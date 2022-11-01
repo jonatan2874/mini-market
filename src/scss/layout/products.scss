@@ -1,0 +1,16 @@
+.products{
+    text-align: center; 
+    font-size: 2rem;   
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        list-style: none;
+
+        li{
+            flex: 1 1 200px;
+            padding: 0.8rem;
+        }
+    }
+}

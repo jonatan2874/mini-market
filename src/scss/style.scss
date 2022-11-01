@@ -1,0 +1,15 @@
+@import 'general.scss';
+
+html,body{
+    background-color:  $secondary-color;
+    font-family: $font-stack;
+}
+
+ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}

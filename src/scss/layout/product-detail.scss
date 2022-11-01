@@ -1,0 +1,42 @@
+@import '../general.scss';
+
+.product-detail{
+    padding-top: 1.8rem;
+    font-size: 1.8rem;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    
+    span{
+        padding: 0.5rem;
+    }
+
+    
+    .remove{
+        background-color: #cdcdcd;
+    }
+
+    .add{
+        background-color: $primary-color;
+        color: $secondary-color;
+    }
+
+    .description{
+        color: $muted-color;
+        font-size: 1.4rem;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        
+        li{
+            padding-right: 0.5rem;
+        }
+    }
+}

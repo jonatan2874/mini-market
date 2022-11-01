@@ -1,0 +1,15 @@
+@import url('../../mixins.scss');
+@import '../../general.scss';
+
+.product{
+    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    img{
+        width: 100%;
+        border: 1px solid #dddbdb;
+    }
+
+}
