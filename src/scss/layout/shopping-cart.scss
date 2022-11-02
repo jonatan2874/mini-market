@@ -10,7 +10,34 @@
     overflow: hidden;
     width: 100%;
 
-    span{
-        padding: 0.5rem;
+    .cart-product{
+        list-style: none;
+
+        li{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+            img{
+                width: 10rem;
+            }
+        }
+    }
+
+    .totals{
+        list-style: none;
+
+        li{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0.5rem;
+                span{
+                    padding: 0.5rem;
+                }
+        }
+        
     }
 }
